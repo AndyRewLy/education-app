@@ -1,17 +1,24 @@
 .tabs-container {
-  background-color: gray;
+  background-color: #f7f7f7;
 }
 .tabs-tab {
   color: black;
+  padding: 5px 10px 5px 5px;
 }
 
 .tabs-tab-selected {
   color: green;
+  border-right: 2px solid green;
 }
 
 .tabs-vertical {
   display: flex;
   flex-direction: row;
+  height: 100vh;
+}
+
+.tabs-vertical .tabs-container {
+  width: 175px;
 }
 
 .tabs-horizontal {
