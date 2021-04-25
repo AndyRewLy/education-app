@@ -1,0 +1,20 @@
+.tabs-container {
+  background-color: gray;
+}
+.tabs-tab {
+  color: black;
+}
+
+.tabs-tab-selected {
+  color: green;
+}
+
+.tabs-vertical {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs-horizontal {
+  display: flex;
+  flex-direction: column;
+}
